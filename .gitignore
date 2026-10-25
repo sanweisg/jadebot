@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Data
+user_data/data/*.feather
+user_data/data/*.json
+!user_data/data/.gitkeep
+
+# Logs
+user_data/logs/*.log
+user_data/logs/*.json
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Config with secrets
+config_*.json
+!config_final.json

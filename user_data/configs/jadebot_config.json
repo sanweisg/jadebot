@@ -1,0 +1,25 @@
+{
+    "initial_balance": 1000,
+    "telegram_token": "",
+    "telegram_chat_id": "",
+    "exchange": "okx",
+    "strategy": "ma_crossover",
+    "dry_run": true,
+    "pairs": ["BTC/USDT", "ETH/USDT", "SOL/USDT"],
+    "risk_config": {
+        "max_risk_per_trade": 0.015,
+        "max_daily_loss": 0.05,
+        "max_total_exposure": 0.25,
+        "max_position_per_pair": 0.10
+    },
+    "trading_hours": {
+        "enabled": false,
+        "start": "00:00",
+        "end": "23:59"
+    },
+    "notifications": {
+        "trade_alerts": true,
+        "risk_alerts": true,
+        "daily_report": true
+    }
+}
